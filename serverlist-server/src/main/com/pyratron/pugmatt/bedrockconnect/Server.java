@@ -55,7 +55,7 @@ public class Server {
         server = new BedrockServer(bindAddress);
         pong = new BedrockPong();
         pong.setEdition("MCPE");
-        pong.setMotd("Join To Open Server List");
+        pong.setMotd("&5Join To Open Server List");
         pong.setSubMotd("BedrockConnect Server List");
         pong.setPlayerCount(0);
         pong.setMaximumPlayerCount(20);
